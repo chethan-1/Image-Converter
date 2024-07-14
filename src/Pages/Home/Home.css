@@ -1,0 +1,26 @@
+/* .Home{
+    border: 2px solid black;
+    height:100px;
+    width: 100%;
+} */
+
+.Home-Title{
+    border: 2px solid black;
+    height:100px;
+    width: auto;
+}
+
+.Title-child{
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100%;
+}
+  
+.imageConverter-body{
+    border: 2px solid black;
+    height: 600px;
+    width: auto;
+}

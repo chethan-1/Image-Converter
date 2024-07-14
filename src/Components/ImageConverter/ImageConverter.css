@@ -1,0 +1,47 @@
+.ImageConverter {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    height: 100%;
+  }
+
+  .container1, .container2, .container3 {
+    border: 2px solid black;
+    height: 100%;
+    width: 100%;
+  }
+  .container3{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .ImageConverter input {
+    margin: 10px 0;
+  }
+  
+  .ImageConverter button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .ImageConverter button:hover {
+    background-color: #45a049;
+  }
+  
+  .preview{
+    border: 2px solid black;
+    width: 400px;
+    height: 400px;
+  }
+  .preview-img{
+    width: 100%;
+    height: 100%;
+  }
+
+  
